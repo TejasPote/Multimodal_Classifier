@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torchvision.models as models
 from transformers import DistilBertModel
+import torch
 
 # MultiModal Classifier model definition
 class MultiModalClassifier(nn.Module):

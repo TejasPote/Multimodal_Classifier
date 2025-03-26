@@ -3,6 +3,7 @@ import re
 from torch.utils.data import Dataset
 from PIL import Image
 from transformers import DistilBertTokenizer
+import torch 
 
 # Custom Dataset for multimodal input (images + text)
 class MultiModalDataset(Dataset):

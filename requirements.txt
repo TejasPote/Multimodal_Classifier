@@ -1,6 +1,7 @@
-openai-clip
+transformers 
 datasets
 torch
+torchvision
 tqdm
 pillow
 torchvision 

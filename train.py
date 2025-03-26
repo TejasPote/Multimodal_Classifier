@@ -1,4 +1,3 @@
-
 import torch
 import torch.optim as optim
 import torch.nn as nn
@@ -199,3 +198,5 @@ def main():
     # After training, test the best model
     test_acc = test_model(model, test_loader, criterion, device, args.checkpoint_dir)
    
+if __name__ == "__main__":
+    main()
